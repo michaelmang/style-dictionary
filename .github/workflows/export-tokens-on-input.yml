@@ -11,7 +11,6 @@ jobs:
     steps:
     - name: Build Style Dictionary
       run: npm run build
-	  
     - name: Upload Platform Deliverables
       uses: actions/upload-artifact@v2
       with:
