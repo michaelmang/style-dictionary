@@ -1,0 +1,22 @@
+{
+  "name": "style-dictionary-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelmang/style-dictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelmang/style-dictionary/issues"
+  },
+  "homepage": "https://github.com/michaelmang/style-dictionary#readme",
+  "dependencies": {
+    "style-dictionary": "^2.10.2"
+  }
+}
