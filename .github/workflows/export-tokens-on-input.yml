@@ -2,15 +2,15 @@ name: Generate Tokens On Input
 
 on:
   push:
-	paths:	
-	  - 'input/design-tokens.json`
+    paths:	
+      - 'input/design-tokens.json'
 
 jobs:
   generate_tokens:
     runs-on: macos-latest
     steps:
     - name: Build Style Dictionary
-	  run: npm run build
+      run: npm run build
 	  
     - name: Upload Platform Deliverables
       uses: actions/upload-artifact@v2
