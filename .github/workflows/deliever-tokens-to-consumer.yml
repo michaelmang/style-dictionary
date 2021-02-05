@@ -18,12 +18,12 @@ jobs:
         # Set the secret in the "src" repository
         personal_token: ${{ secrets.API_TOKEN_GITHUB }}
         # This is the branch that has the code for this article
-        src_branch: consuming-design-tokens-from-style-dictionary-with-github-actions
-        src_path: output/scss/_variables.scss
+        src_branch: generating-design-token-theme-shades-with-style-dictionary
+        src_path: output/css/_variables.css
         dst_owner: michaelmang
-        dst_repo_name: consume-style-dictionary-github-actions
-        dst_branch: main
-        dst_path: tokens/_variables.scss
+        dst_repo_name: design-token-theme-shades
+        dst_branch: implement-shades
+        dst_path: tokens/_variables.css
         username: michaelmang
         email: mikemangialardi94@gmail.com
         commit_message: Update platform deliverable
