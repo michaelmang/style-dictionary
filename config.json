@@ -1,16 +1,8 @@
 {
   "source": ["input/**/*.json"],
   "platforms": {
-    "scss": {
-      "transformGroup": "scss",
-      "buildPath": "output/scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
-    },
     "css": {
-      "transformGroup": "css",
+      "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/rem"],
       "buildPath": "output/css/",
       "files": [{
         "destination": "_variables.css",
