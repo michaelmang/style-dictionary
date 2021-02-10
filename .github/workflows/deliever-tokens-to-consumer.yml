@@ -7,7 +7,7 @@ on:
 
 jobs:
   # Add a job for every additional consumer/application
-  deliver_to_react_application:
+  deliver_to_docusaurus:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -18,11 +18,11 @@ jobs:
         # Set the secret in the "src" repository
         personal_token: ${{ secrets.API_TOKEN_GITHUB }}
         # This is the branch that has the code for this article
-        src_branch: generating-design-token-theme-shades-with-style-dictionary
+        src_branch: documenting-design-tokens-with-docusaurus
         src_path: output/css/_variables.css
         dst_owner: michaelmang
-        dst_repo_name: design-token-theme-shades
-        dst_branch: implement-shades
+        dst_repo_name: design-tokens-documentation
+        dst_branch: add-token-docs
         dst_path: tokens/_variables.css
         username: michaelmang
         email: mikemangialardi94@gmail.com
