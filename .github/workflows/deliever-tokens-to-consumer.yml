@@ -1,0 +1,29 @@
+name: Deliver Tokens To Consumer
+
+on:
+  push:
+    paths:	
+      - 'output/**'
+
+jobs:
+  # Add a job for every additional consumer/application
+  deliver_to_docusaurus:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Deliver Platform Deliverable To Application
+      uses: andstor/copycat-action@v3
+      with:
+        # See documentation: https://docs.github.com/en/actions/reference/encrypted-secrets
+        # Set the secret in the "src" repository
+        personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+        # This is the branch that has the code for this article
+        src_branch: documenting-design-tokens-with-docusaurus
+        src_path: output/css/_variables.css
+        dst_owner: michaelmang
+        dst_repo_name: design-tokens-documentation
+        dst_branch: add-token-docs
+        dst_path: tokens/_variables.css
+        username: michaelmang
+        email: mikemangialardi94@gmail.com
+        commit_message: Update platform deliverable

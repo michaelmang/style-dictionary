@@ -1,0 +1,13 @@
+{
+  "source": ["input/**/*.json"],
+  "platforms": {
+    "css": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon", "size/rem"],
+      "buildPath": "output/css/",
+      "files": [{
+        "destination": "_variables.css",
+        "format": "css/variables"
+      }]
+    }
+  }
+}

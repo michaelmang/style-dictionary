@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/michaelmang/style-dictionary#readme",
   "dependencies": {
-    "style-dictionary": "^2.10.2"
+    "style-dictionary": "^2.10.2",
+    "tinycolor2": "^1.4.2"
   }
 }
