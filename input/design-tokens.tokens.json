@@ -1,0 +1,289 @@
+{
+  "gradient": {
+    "button border gradient": {
+      "description": null,
+      "type": "custom-gradient",
+      "value": {
+        "gradientType": "linear",
+        "rotation": 180,
+        "stops": [
+          {
+            "position": 0.86,
+            "color": "#babfc3ff"
+          },
+          {
+            "position": 1,
+            "color": "#bbbfc3ff"
+          }
+        ]
+      }
+    },
+    "text input border": {
+      "description": null,
+      "type": "custom-gradient",
+      "value": {
+        "gradientType": "linear",
+        "rotation": 180,
+        "stops": [
+          {
+            "position": 0,
+            "color": "#a7acb1ff"
+          },
+          {
+            "position": 0.1,
+            "color": "#babfc3ff"
+          }
+        ]
+      }
+    }
+  },
+  "grid": {
+    "spacing": {
+      "padding-20": {
+        "0": {
+          "type": "custom-grid",
+          "value": {
+            "pattern": "columns",
+            "sectionSize": 1,
+            "gutterSize": 20,
+            "alignment": "max",
+            "count": 1,
+            "offset": 20
+          }
+        },
+        "1": {
+          "type": "custom-grid",
+          "value": {
+            "pattern": "rows",
+            "sectionSize": 1,
+            "gutterSize": 20,
+            "alignment": "max",
+            "count": 1,
+            "offset": 20
+          }
+        },
+        "2": {
+          "type": "custom-grid",
+          "value": {
+            "pattern": "columns",
+            "sectionSize": 1,
+            "gutterSize": 20,
+            "alignment": "min",
+            "count": 1,
+            "offset": 20
+          }
+        },
+        "3": {
+          "type": "custom-grid",
+          "value": {
+            "pattern": "rows",
+            "sectionSize": 1,
+            "gutterSize": 20,
+            "alignment": "min",
+            "count": 1,
+            "offset": 20
+          }
+        },
+        "description": null
+      },
+      "padding-16": {
+        "0": {
+          "type": "custom-grid",
+          "value": {
+            "pattern": "columns",
+            "sectionSize": 1,
+            "gutterSize": 16,
+            "alignment": "min",
+            "count": 1,
+            "offset": 16
+          }
+        },
+        "1": {
+          "type": "custom-grid",
+          "value": {
+            "pattern": "columns",
+            "sectionSize": 1,
+            "gutterSize": 16,
+            "alignment": "max",
+            "count": 1,
+            "offset": 16
+          }
+        },
+        "2": {
+          "type": "custom-grid",
+          "value": {
+            "pattern": "rows",
+            "sectionSize": 1,
+            "gutterSize": 16,
+            "alignment": "min",
+            "count": 1,
+            "offset": 16
+          }
+        },
+        "3": {
+          "type": "custom-grid",
+          "value": {
+            "pattern": "rows",
+            "sectionSize": 1,
+            "gutterSize": 16,
+            "alignment": "max",
+            "count": 1,
+            "offset": 16
+          }
+        },
+        "description": null
+      }
+    }
+  },
+  "effect": {
+    "border": {
+      "top and bottom": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "innerShadow",
+            "radius": 0,
+            "color": "#e9eaebff",
+            "offsetX": 0,
+            "offsetY": -1,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "innerShadow",
+            "radius": 0,
+            "color": "#e9eaebff",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "description": null
+      },
+      "top": {
+        "description": null,
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "innerShadow",
+          "radius": 0,
+          "color": "#e4e5e7ff",
+          "offsetX": 0,
+          "offsetY": 1,
+          "spread": 0
+        }
+      }
+    },
+    "divider": {
+      "bottom": {
+        "description": null,
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "innerShadow",
+          "radius": 0,
+          "color": "#e1e3e5ff",
+          "offsetX": 0,
+          "offsetY": -1,
+          "spread": 0
+        }
+      }
+    },
+    "button segment": {
+      "left": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 0,
+            "color": "#0000000d",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "innerShadow",
+            "radius": 0,
+            "color": "#bbbfc3ff",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "innerShadow",
+            "radius": 0,
+            "color": "#bbbfc3ff",
+            "offsetX": 1,
+            "offsetY": 0,
+            "spread": 0
+          }
+        },
+        "3": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "innerShadow",
+            "radius": 0,
+            "color": "#bcbfc3ff",
+            "offsetX": 0,
+            "offsetY": -1,
+            "spread": 0
+          }
+        },
+        "description": null
+      },
+      "middle": {
+        "0": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "dropShadow",
+            "radius": 0,
+            "color": "#0000000d",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "1": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "innerShadow",
+            "radius": 0,
+            "color": "#bbbfc3ff",
+            "offsetX": 0,
+            "offsetY": 1,
+            "spread": 0
+          }
+        },
+        "2": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "innerShadow",
+            "radius": 0,
+            "color": "#bbbfc3ff",
+            "offsetX": 1,
+            "offsetY": 0,
+            "spread": 0
+          }
+        },
+        "3": {
+          "type": "custom-shadow",
+          "value": {
+            "shadowType": "innerShadow",
+            "radius": 0,
+            "color": "#bcbfc3ff",
+            "offsetX": 0,
+            "offsetY": -1,
+            "spread": 0
+          }
+        },
+        "description": null
+      }
+    }
+  }
+}
