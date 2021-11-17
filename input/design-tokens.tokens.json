@@ -37,6 +37,13 @@
       }
     }
   },
+  "color": {
+    "testgithub": {
+      "description": null,
+      "type": "color",
+      "value": "#39e1f8ff"
+    }
+  },
   "grid": {
     "spacing": {
       "padding-20": {
