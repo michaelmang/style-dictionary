@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaelmang/style-dictionary.git"
+    "url": "git+https://github.com/jaylpl/style-dictionary.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/michaelmang/style-dictionary/issues"
+    "url": "https://github.com/mjaylpl/style-dictionary/issues"
   },
-  "homepage": "https://github.com/michaelmang/style-dictionary#readme",
+  "homepage": "https://github.com/jaylpl/style-dictionary#readme",
   "dependencies": {
-    "style-dictionary": "^2.10.2"
+    "style-dictionary": "^2.10.3"
   }
 }
