@@ -1,3 +1,4 @@
+# .github/workflows/export-tokens-on-input.yml
 name: Generate Tokens On Input
 
 on:
@@ -5,19 +6,15 @@ on:
     paths:  
       - 'input/design-tokens.json'
 
-      jobs:
+jobs:
   generate_tokens:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '12'
     - name: Install Node Dependencies
       run: npm install
     - name: Build Style Dictionary
-      run: npm run build   
-       - name: Commit Generated Platform Deliverables
+      run: npm run build
+    - name: Commit Generated Platform Deliverables
       id: "auto-commit-action"
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
