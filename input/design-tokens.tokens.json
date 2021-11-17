@@ -1,5 +1,6 @@
 {
   "sizes": {
+    "4": { "description": "Token: Sizes 4", "value": 4, "type": "dimension" },
     "8": { "description": "Token: Sizes 8", "value": 8, "type": "dimension" },
     "12": {
       "description": "Token: Sizes 12",
